@@ -1,3 +1,8 @@
+       ---Cenário--- : 
+Um sistema de cinema que combina
+múltiplos subsistemas, como seleção
+de filmes, assentos e pagamentos.
+
 # Subsystem A: Movie Selector
 class MovieSelector:
     def select_movie(self, movie):
