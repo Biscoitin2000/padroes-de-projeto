@@ -9,33 +9,6 @@ Facilita a criação de objetos complexos sem expor a lógica de instanciamento 
 - Quando o código precisa criar objetos sem saber exatamente qual classe será instanciada até o momento da execução.
 - Para evitar o uso de código com `new` espalhado por várias partes do programa.
 
-## Diagrama UML
-
-+-----------------------+
-|       Creator         |
-+-----------------------+
-| + factoryMethod()     |
-+-----------------------+
-           ^
-           |
-+-----------------------+
-|    ConcreteCreator    |
-+-----------------------+
-| + factoryMethod()     |
-+-----------------------+
-           |
-+-----------------------+
-|       Product         |
-+-----------------------+
-           ^
-           |
-+-----------------------+
-|   ConcreteProduct     |
-+-----------------------+
-
-## Exemplo em Python
-Veja o código de exemplo no arquivo `main.py`.
-
 Exemplo simplificado:
 ```python
 from abc import ABC, abstractmethod
