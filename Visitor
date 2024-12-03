@@ -1,1 +1,45 @@
+# Visitor
+## Conceito
+O padrão Visitor permite que você adicione novos comportamentos a objetos sem alterar suas classes.
+
+## Problema que Resolve
+Facilita a adição de novas operações em estruturas complexas de objetos, sem alterar os próprios objetos.
+
+## Quando Usar
+- Quando você precisa realizar operações em uma estrutura complexa de objetos e essas operações devem ser mantidas separadas.
+- Para evitar poluir classes com muitas responsabilidades.
+
+## Diagrama UML
+
++---------------+       +--------------+
+|    Visitor    |<------+ ConcreteVis  |
++---------------+       +--------------+
+| + visitA()    |       | + visitA()   |
+| + visitB()    |       | + visitB()   |
++---------------+       +--------------+
+        ^
+        |
++---------------+
+|    Element    |
++---------------+
+| + accept()    |
++---------------+
+        ^
+        |
++---------------+
+| ConcreteElem  |
++---------------+
+| + accept()    |
++---------------+
+
+
+## Exemplo em Python
+Veja o código de exemplo no arquivo `main.py`.
+
+## Vantagens
+- Fácil de adicionar novas operações sem modificar a estrutura.
+- Segrega lógica operacional em uma classe separada.
+
+## Desvantagens
+- Pode dificultar a manutenção quando há muitas operações ou classes concretas.
 
