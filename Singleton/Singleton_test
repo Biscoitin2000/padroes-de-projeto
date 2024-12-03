@@ -9,15 +9,6 @@ Evita a criação de múltiplas instâncias de uma classe, especialmente em cen�
 - Para gerenciar configurações globais de um sistema.
 - Em loggers, drivers de impressão, ou conexões com banco de dados.
 
-## Diagrama UML
-+-----------------+
-|   Singleton     |
-+-----------------+
-| - _instance     |
-+-----------------+
-| + __new__()     |
-+-----------------+
-
 ## Exemplo em Python
 Veja o código de exemplo no arquivo `main.py`.
 
