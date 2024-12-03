@@ -9,20 +9,7 @@ Quando você tem classes ou componentes que precisam trabalhar juntas, mas possu
 - Para integrar sistemas legados com sistemas novos.
 - Quando você quer reutilizar uma classe existente, mas ela não tem a interface esperada.
 
-## Diagrama UML
-+----------------+       +----------------+
-|   Target       |<------|   Adapter      |
-+----------------+       +----------------+
-| + request()    |       | + specificReq()|
-+----------------+       +----------------+
-          |                     ^
-          |                     |
-          v                     |
-+----------------+              |
-|   Adaptee      |--------------+
-+----------------+
-| + specificReq()|
-+----------------+
+
 
 ## Exemplo em Python
 Veja o código de exemplo no arquivo `main.py`.
