@@ -1,1 +1,34 @@
-Descrição colocar
+# Facade
+
+# Conceito
+O Facade atua como uma fachada (ou "frente") para um subsistema complexo, expondo uma 
+interface simplificada para o cliente enquantomantém a complexidade oculta.
+
+# Problemas para Resolver
+Facilita a interação com sistemas complexos ao oferecer uma interface única e clara, evitando que
+os clientes lidem diretamente com várias interfaces e classes.
+
+# Quando Usar
+- Para simplificar o uso de um subsistema complexo.
+- Quando deseja criar uma abstração de nível mais alto para um conjunto de funcionalidades relacionadas.
+- Quando deseja reduzir o acoplamento entre clientes e classes internas de um subsistema.
+
+# Diagrma UML
++-----------+       +-----------------+
+|   Client  |------>|      Facade     |<----------+
++-----------+       +-----------------+           |
+                        |     |                   |
+                        v     v                   v
+                    +-------------+      +------------------+
+                    | SubsystemA  |      |    SubsystemB    |
+                    +-------------+      +------------------+
+
+# Vantagens
+- Simplifica o uso de subsistemas complexos.
+- Reduz o acoplamento entre o cliente e os componentes internos do subsistema.
+- Permite alterar os subsistemas sem impactar o cliente.
+
+# Desvantagens
+- Pode se tornar um ponto de risco único (single point of failure) se concentrar muita lógica.
+- Pode esconder detalhes importantes de funcionamento do subsistema.
+
