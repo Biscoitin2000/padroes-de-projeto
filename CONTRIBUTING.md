@@ -92,6 +92,7 @@ EX:
 │   ├── Factory/                    # Pasta para o padrão Factory
 
 │   │   ├── UML_Factory             # Diagrama UML do padrão
+
 │   │   ├── factory_example.py      # Exemplo prático do padrão em Python
 
 │   ├── Singleton/                  # Pasta para o padrão Singleton
