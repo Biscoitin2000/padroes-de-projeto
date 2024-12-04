@@ -74,10 +74,13 @@ if __name__ == "__main__":
 
 Repetindo os passos amostrados anteriormente na pasta com seu projeto padrão deve conter a DESCRIÇÃO DE SEU PADRÃO cojunto com seu UML DO PADRÃO (EM DIAGRAMA), e por fim anexado na pasta ter um TESTE DE SEU PADRÃO EM PY (PYTON) conforme amostrado a baixo
 EX:
-- padroes-de-projeto/
-- - - Facade/                       # Pasta para o padrão Facade
-- - - - - - UML_Facade              # Diagrama UML do padrão
-- - - - - - facade_example.py       # Exemplo prático do padrão em Python
+├── padroes-de-projeto/
+
+│____├── Facade/---------------------------------# Pasta para o padrão Facade
+
+│____│____├── UML_Facade-------------------------# Diagrama UML do padrão
+
+│____│____├── facade_example.py------------------# Exemplo prático do padrão em Python
 
  
  -ESTRUTURA DO REPOSITÓRIO-
