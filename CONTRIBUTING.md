@@ -85,11 +85,11 @@ EX:
 
 ├── padroes-de-projeto/
 
-│   ├── README.md                   # Introdução geral e visão do projeto
+│   ├── README.md___________________# Introdução geral e visão do projeto
 
-│   ├── CONTRIBUTING.md             # Diretrizes para contribuição
+│   ├── CONTRIBUTING.md_____________# Diretrizes para contribuição
 
-│   ├── Factory/                    # Pasta para o padrão Factory
+│   ├── Factory/____________________# Pasta para o padrão Factory
 
 │   │   ├── UML_Factory             # Diagrama UML do padrão
 
