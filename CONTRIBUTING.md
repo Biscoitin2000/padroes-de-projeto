@@ -85,25 +85,25 @@ EX:
 
 ├── padroes-de-projeto/
 
-│   ├── README.md___________________# Introdução geral e visão do projeto
+│├── README.md___________________# Introdução geral e visão do projeto
 
-│   ├── CONTRIBUTING.md_____________# Diretrizes para contribuição
+│├── CONTRIBUTING.md_____________# Diretrizes para contribuição
 
-│   ├── Factory/____________________# Pasta para o padrão Factory
+│├── Factory/____________________# Pasta para o padrão Factory
 
-│   │   ├── UML_Factory             # Diagrama UML do padrão
+││├── UML_Factory             # Diagrama UML do padrão
 
-│   │   ├── factory_example.py      # Exemplo prático do padrão em Python
+││├── factory_example.py      # Exemplo prático do padrão em Python
 
-│   ├── Singleton/                  # Pasta para o padrão Singleton
+│├── Singleton/                  # Pasta para o padrão Singleton
 
-│   │   ├── UML_Singleton           # Diagrama UML do padrão
+││├── UML_Singleton           # Diagrama UML do padrão
 
-│   │   ├── singleton_example.py    # Exemplo prático do padrão em Python
+││├── singleton_example.py    # Exemplo prático do padrão em Python
 
-│   ├── Adapter/                    # Pasta para o padrão Adapter
+│├── Adapter/                    # Pasta para o padrão Adapter
 
-│   │   ├── UML_Adapter.png         # Diagrama UML do padrão
+││├── UML_Adapter.png         # Diagrama UML do padrão
 
 │   │   ├── adapter_example.py      # Exemplo prático do padrão em Python
 
