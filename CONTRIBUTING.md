@@ -85,39 +85,39 @@ EX:
 
 ├── padroes-de-projeto/
 
-│____├── README.md____________________# Introdução geral e visão do projeto
+│____├── README.md                   # Introdução geral e visão do projeto
 
-│____├── CONTRIBUTING.md_____________# Diretrizes para contribuição
+│____├── CONTRIBUTING.md             # Diretrizes para contribuição
 
-│____├── Factory/____________________# Pasta para o padrão Factory
+│____├── Factory/                    # Pasta para o padrão Factory
 
-│____│____├── UML_Factory             # Diagrama UML do padrão
+│____│____├── UML_Factory            # Diagrama UML do padrão
 
-│____│____├── factory_example.py      # Exemplo prático do padrão em Python
+│____│____├── factory_example.py     # Exemplo prático do padrão em Python
 
 │____├── Singleton/                  # Pasta para o padrão Singleton
 
-│____│____├── UML_Singleton           # Diagrama UML do padrão
+│____│____├── UML_Singleton          # Diagrama UML do padrão
 
-│____│____├── singleton_example.py    # Exemplo prático do padrão em Python
+│____│____├── singleton_example.py   # Exemplo prático do padrão em Python
 
 │____├── Adapter/                    # Pasta para o padrão Adapter
 
-│____│____├── UML_Adapter.png         # Diagrama UML do padrão
+│____│____├── UML_Adapter.png        # Diagrama UML do padrão
 
-│____│____├── adapter_example.py      # Exemplo prático do padrão em Python
+│____│____├── adapter_example.py     # Exemplo prático do padrão em Python
 
 │____├── Visitor/                    # Pasta para o padrão Visitor
 
-│____│____├── UML_Visitor             # Diagrama UML do padrão
+│____│____├── UML_Visitor            # Diagrama UML do padrão
 
-│____│____├── visitor_example.py      # Exemplo prático do padrão em Python
+│____│____├── visitor_example.py     # Exemplo prático do padrão em Python
 
 │____├── Facade/                     # Pasta para o padrão Facade
 
-│____│____├── UML_Facade              # Diagrama UML do padrão
+│____│____├── UML_Facade             # Diagrama UML do padrão
 
-│____│____├── facade_example.py       # Exemplo prático do padrão em Python
+│____│____├── facade_example.py      # Exemplo prático do padrão em Python
 
 │____└── docs/                       # Pasta opcional para documentação geral
 
