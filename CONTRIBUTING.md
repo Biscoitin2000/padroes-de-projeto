@@ -82,18 +82,17 @@ EX:
  
  -ESTRUTURA DO REPOSITÓRIO-
  
-
 ├── padroes-de-projeto/
 
-│____├── README.md                   # Introdução geral e visão do projeto
+│____├── README.md—------------------ # Introdução geral e visão do projeto
 
-│____├── CONTRIBUTING.md             # Diretrizes para contribuição
+│____├── CONTRIBUTING.md—---------# Diretrizes para contribuição
 
-│____├── Factory/                    # Pasta para o padrão Factory
+│____├── Factory/—------------------------- # Pasta para o padrão Factory
 
-│____│____├── UML_Factory            # Diagrama UML do padrão
+│____│____├── UML_Factory—----------# Diagrama UML do padrão
 
-│____│____├── factory_example.py     # Exemplo prático do padrão em Python
+│____│____├── factory_example.py—--# Exemplo prático do padrão em Python
 
 │____├── Singleton/                  # Pasta para o padrão Singleton
 
