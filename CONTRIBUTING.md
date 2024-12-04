@@ -84,11 +84,14 @@ EX:
  
 
 ├── padroes-de-projeto/
-│   ├── README.md                   # Introdução geral e visão do projeto
-│   ├── CONTRIBUTING.md             # Diretrizes para contribuição
-│   ├── Factory/                    # Pasta para o padrão Factory
-│   │   ├── UML_Factory             # Diagrama UML do padrão
 
+│   ├── README.md                   # Introdução geral e visão do projeto
+
+│   ├── CONTRIBUTING.md             # Diretrizes para contribuição
+
+│   ├── Factory/                    # Pasta para o padrão Factory
+
+│   │   ├── UML_Factory             # Diagrama UML do padrão
 │   │   ├── factory_example.py      # Exemplo prático do padrão em Python
 
 │   ├── Singleton/                  # Pasta para o padrão Singleton
