@@ -117,9 +117,9 @@ EX:
 
 │____│____├── UML_Facade             # Diagrama UML do padrão
 
-│____│____├── facade_example.py      # Exemplo prático do padrão em Python
+│____│____├── facade_example.py------# Exemplo prático do padrão em Python
 
-│____└── docs/                       # Pasta opcional para documentação geral
+│____└── docs/-----------------------# Pasta opcional para documentação geral
 
 
 
