@@ -74,34 +74,34 @@ if __name__ == "__main__":
 
 Repetindo os passos amostrados anteriormente na pasta com seu projeto padrão deve conter a DESCRIÇÃO DE SEU PADRÃO cojunto com seu UML DO PADRÃO (EM DIAGRAMA), e por fim anexado na pasta ter um TESTE DE SEU PADRÃO EM PY (PYTON) conforme amostrado a baixo
 EX:
-├── padroes-de-projeto/
-│   ├── Facade/                     # Pasta para o padrão Facade
-│   │   ├── UML_Facade              # Diagrama UML do padrão
-│   │   ├── facade_example.py       # Exemplo prático do padrão em Python
+- padroes-de-projeto/
+- - - Facade/                       # Pasta para o padrão Facade
+- - - - - - UML_Facade              # Diagrama UML do padrão
+- - - - - - facade_example.py       # Exemplo prático do padrão em Python
 
 
  
  -ESTRUTURA DO REPOSITÓRIO-
  
-├── padroes-de-projeto/
-│   ├── README.md                   # Introdução geral e visão do projeto
-│   ├── CONTRIBUTING.md             # Diretrizes para contribuição
-│   ├── Factory/                    # Pasta para o padrão Factory
-│   │   ├── UML_Factory             # Diagrama UML do padrão
-│   │   ├── factory_example.py      # Exemplo prático do padrão em Python
-│   ├── Singleton/                  # Pasta para o padrão Singleton
-│   │   ├── UML_Singleton           # Diagrama UML do padrão
-│   │   ├── singleton_example.py    # Exemplo prático do padrão em Python
-│   ├── Adapter/                    # Pasta para o padrão Adapter
-│   │   ├── UML_Adapter.png         # Diagrama UML do padrão
-│   │   ├── adapter_example.py      # Exemplo prático do padrão em Python
-│   ├── Visitor/                    # Pasta para o padrão Visitor
-│   │   ├── UML_Visitor             # Diagrama UML do padrão
-│   │   ├── visitor_example.py      # Exemplo prático do padrão em Python
-│   ├── Facade/                     # Pasta para o padrão Facade
-│   │   ├── UML_Facade              # Diagrama UML do padrão
-│   │   ├── facade_example.py       # Exemplo prático do padrão em Python
-│   └── docs/                       # Pasta opcional para documentação geral
+- padroes-de-projeto/
+- - -README.md                   # Introdução geral e visão do projeto
+- - -CONTRIBUTING.md             # Diretrizes para contribuição
+- - -Factory/                    # Pasta para o padrão Factory
+- - - - - -UML_Factory           # Diagrama UML do padrão
+- - - - - -factory_example.py    # Exemplo prático do padrão em Python
+- - -Singleton/                  # Pasta para o padrão Singleton
+- - - - - -UML_Singleton         # Diagrama UML do padrão
+- - - - - -singleton_example.py  # Exemplo prático do padrão em Python
+- - -Adapter/                    # Pasta para o padrão Adapter
+- - - - - -UML_Adapter.png       # Diagrama UML do padrão
+- - - - - -adapter_example.py    # Exemplo prático do padrão em Python
+- - -Visitor/                    # Pasta para o padrão Visitor
+- - - - - -UML_Visitor           # Diagrama UML do padrão
+- - - - - -visitor_example.py    # Exemplo prático do padrão em Python
+- - -Facade/                     # Pasta para o padrão Facade
+- - - - - -UML_Facade            # Diagrama UML do padrão
+- - - - - -facade_example.py     # Exemplo prático do padrão em Python
+- - -docs/                       # Pasta opcional para documentação geral
     
 
   
