@@ -85,7 +85,7 @@ EX:
 
 ├── padroes-de-projeto/
 
-│├── README.md___________________# Introdução geral e visão do projeto
+│├── README.md____________________# Introdução geral e visão do projeto
 
 │├── CONTRIBUTING.md_____________# Diretrizes para contribuição
 
