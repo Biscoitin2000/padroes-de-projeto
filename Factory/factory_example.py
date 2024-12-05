@@ -10,3 +10,7 @@ class Product(ABC):
 class ConcreteProductA(Product):
     def operation(self):
         return "Produto A criado."
+
+class ConcreteProductB(Product):
+    def operation(self):
+        return "Produto B criado."
