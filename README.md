@@ -9,7 +9,7 @@ Membros do grupo:  Luis Felipe,Gustavo Madeira Meneghelo (FuracaoDoisMil), Orlan
 
 Referências: 
 
-- Factory:
+# Factory:
 
 https://www.devmedia.com.br/padrao-de-projeto-factory-method-em-java/26348
 -
