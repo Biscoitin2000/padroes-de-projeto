@@ -24,14 +24,14 @@ Desacoplamento: Quando é necessário desacoplar o cliente de implementações d
 Facilidade de Uso: Quando você quer tornar o sistema mais fácil de usar para os clientes, sem expor a complexidade interna.
 Mudança de Implementação: Quando você prevê que os subsistemas podem mudar ou evoluir, mas quer manter a interface do cliente estável.
 
-##Vantagens:##
+##Vantagens##
 
 Simplicidade para o Cliente: O Facade oferece uma interface simples, facilitando o uso do sistema.
 Desacoplamento: O cliente não precisa se preocupar com os detalhes internos dos subsistemas, o que permite maior flexibilidade.
 Facilidade de Manutenção: Mudanças nos subsistemas podem ser feitas sem impactar o cliente, desde que a interface do Facade não mude.
 Redução de Código Repetido: O cliente evita ter que fazer várias chamadas repetidas a subsistemas diferentes.
 
-##Desvantagens:##
+##Desvantagens##
 
 Falta de Flexibilidade: O Facade pode ocultar funcionalidades avançadas ou específicas dos subsistemas que o cliente poderia querer acessar diretamente.
 Aumento de Dependência: O cliente fica dependente da interface do Facade, o que pode ser um problema se o Facade não oferecer todas as funcionalidades necessárias.
