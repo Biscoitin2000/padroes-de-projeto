@@ -29,3 +29,9 @@ typedef struct EmailNotification {
 void sendEmail(Notification* self, const char* message) {
     printf("Enviando Email: %s\n", message);
 }
+
+EmailNotification* createEmailNotification() {
+    EmailNotification* email = (EmailNotification*)malloc(sizeof(EmailNotification));
+    email->base.send = sendEmail;
+    return email;
+}
