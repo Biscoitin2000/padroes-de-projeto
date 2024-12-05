@@ -5,7 +5,7 @@ Estamos utlizizando o aquivo chamado de CONTRIBUTING.md para definir a estrutura
 
 Nesse repositória abordamos ao todo cinco padrões, sendo eles: Factory, Facade, Adapter, Singleton, Visitor.
 
-Membros do grupo: Vitor Hugo Pires (Taldo Vitinho), Gustavo Madeira Meneghelo (), Luis Felipe 
+Membros do grupo:  Luis Felipe,Gustavo Madeira Meneghelo (), Orlando Seiti, Vitor Hugo Pires (Taldo Vitinho),
 
 Referências: 
 
