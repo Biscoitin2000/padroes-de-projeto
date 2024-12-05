@@ -35,3 +35,13 @@ EmailNotification* createEmailNotification() {
     email->base.send = sendEmail;
     return email;
 }
+
+Notification* createNotification(const char* type) {
+    if (strcmp(type, "SMS") == 0) {
+        return (Notification*)createSMSNotification();
+    } else if (strcmp(type, "Email") == 0) {
+        return (Notification*)createEmailNotification();
+    }
+    return NULL;
+}
+
