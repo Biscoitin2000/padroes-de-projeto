@@ -19,6 +19,8 @@ Veja o código de exemplo no arquivo `main.py`.
 ## Desvantagens
 - Pode dificultar testes devido à dependência de estado global.
 
-## Exemplos de uso: Muitos desenvolvedores consideram o padrão Singleton um antipadrão. É por isso que seu uso está diminuindo no código Python.
+## Exemplos de uso 
+- Muitos desenvolvedores consideram o padrão Singleton um antipadrão. É por isso que seu uso está diminuindo no código Python.
 
-## Identificação: O Singleton pode ser reconhecido por um método de criação estático, que retorna o mesmo objeto em cache.  
+## Identificação
+- O Singleton pode ser reconhecido por um método de criação estático, que retorna o mesmo objeto em cache.  
