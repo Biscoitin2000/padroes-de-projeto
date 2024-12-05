@@ -1,1 +1,20 @@
-
++-------------------+      +--------------------+
+|   Cliente         |------|   CinemaFacade     |
++-------------------+      +--------------------+
+                          |  - SistemaDeSom     |
+                          |  - SistemaDeIluminação |
+                          |  - Projetor         |
+                          |  - Tela             |
+                          +--------------------+
+                                  |    |    |    |
+                +-----------------+    |    |    |
+                |                     |    |    |
+        +---------------+     +---------------+    +---------+
+        | SistemaDeSom  |     | SistemaDeIluminação | | Projetor |
+        +---------------+     +---------------+    +---------+
+                |                     |    |    |
+                +---------------------+----+----+
+                                    Tela
+Cliente: Interage apenas com a classe CinemaFacade.
+CinemaFacade: A camada Facade que abstrai os subsistemas complexos, controlando a interação com SistemaDeSom, SistemaDeIluminacao, Projetor e Tela.
+Subsistemas: As classes como SistemaDeSom, SistemaDeIluminacao, Projetor, e Tela, que são complexas e manipuladas pelo Facade.
