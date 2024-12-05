@@ -1,40 +1,42 @@
+# Definindo a interface para os produtos
 class Veiculo:
-    """Interface comum para todos os veículos."""
-    def descricao(self):
-        raise NotImplementedError("Subclasses devem implementar o método descricao().")
+    def tipo(self):
+        # Método abstrato para ser implementado pelas subclasses
+        raise NotImplementedError("Método 'tipo' não implementado.")
+
+# Produtos concretos: classes que implementam a interface Veiculo
 
 class Carro(Veiculo):
-    def __init__(self, modelo):
-        self.modelo = modelo
-
-    def descricao(self):
-        return f"Este é um carro. Modelo: {self.modelo}"
+    def tipo(self):
+        # Implementação concreta para o tipo de veículo Carro
+        return "Carro"
 
 class Moto(Veiculo):
-    def __init__(self, cilindrada):
-        self.cilindrada = cilindrada
+    def tipo(self):
+        # Implementação concreta para o tipo de veículo Moto
+        return "Moto"
 
-    def descricao(self):
-        return f"Esta é uma moto. Cilindrada: {self.cilindrada}"
+# Fábrica de veículos: cria os objetos de forma centralizada
 
-class VeiculoFactory:
-    """Factory para criar objetos do tipo Veiculo."""
-    @staticmethod
-    def criar_veiculo(tipo, especificacao):
-        if tipo == "carro":
-            return Carro(especificacao)
-        elif tipo == "moto":
-            return Moto(especificacao)
+class FabricaVeiculo:
+    def criar_veiculo(self, tipo_veiculo):
+        # Método de fábrica que cria o veículo dependendo do tipo
+        if tipo_veiculo == "carro":
+            return Carro()  # Retorna um objeto Carro
+        elif tipo_veiculo == "moto":
+            return Moto()  # Retorna um objeto Moto
         else:
-            raise ValueError(f"Tipo de veículo desconhecido: {tipo}")
+            raise ValueError(f"Veículo de tipo '{tipo_veiculo}' não reconhecido.")
 
-# Exemplo de uso
-if __name__ == "__main__":
-    # Criando veículos usando a factory
-    meu_carro = VeiculoFactory.criar_veiculo("carro", "Sedan")
-    minha_moto = VeiculoFactory.criar_veiculo("moto", "600cc")
+# Cliente: interage com a fábrica sem se preocupar com a criação dos objetos
 
-    # Mostrando as descrições
-    print(meu_carro.descricao())
-    print(minha_moto.descricao())
+def cliente(fabrica, tipo_veiculo):
+    veiculo = fabrica.criar_veiculo(tipo_veiculo)  # Chama a fábrica para criar o objeto
+    print(f"Veículo criado: {veiculo.tipo()}")  # Exibe o tipo do veículo criado
 
+# Uso do padrão Factory
+
+fabrica = FabricaVeiculo()  # Instanciando a fábrica
+
+cliente(fabrica, "carro")  # Saída: Veículo criado: Carro
+cliente(fabrica, "moto")   # Saída: Veículo criado: Moto
