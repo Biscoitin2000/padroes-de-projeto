@@ -28,7 +28,8 @@ https://chatgpt.com/c/674f6f48-60dc-800b-82ab-b16494dfbbba
 https://refactoring.guru/design-patterns/adapter
 https://chatgpt.com/c/675193f7-8bf0-8012-98bb-54598fa4debf
 
--Singleton:
+- Singleton:
+
 https://refactoring.guru/pt-br/design-patterns/singleton
 https://chatgpt.com/c/6751bb35-ac30-800c-845b-b0201bcfa070
 https://www.softplan.com.br/tech-writers/singleton-guia-completo-para-entender-essa-polemica-de-uma-vez-por-todas/
