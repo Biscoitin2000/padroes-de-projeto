@@ -24,7 +24,7 @@ https://chatgpt.com/c/6751b0dd-3e58-8012-8b5f-c92134a3fea3
 https://refactoring.guru/pt-br/design-patterns/visitor
 https://chatgpt.com/c/674f6f48-60dc-800b-82ab-b16494dfbbba
 
--Adapter
+- Adapter
 https://refactoring.guru/design-patterns/adapter
 https://chatgpt.com/c/675193f7-8bf0-8012-98bb-54598fa4debf
 
