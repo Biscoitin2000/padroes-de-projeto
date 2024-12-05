@@ -15,3 +15,9 @@ typedef struct SMSNotification {
 void sendSMS(Notification* self, const char* message) {
     printf("Enviando SMS: %s\n", message);
 }
+
+SMSNotification* createSMSNotification() {
+    SMSNotification* sms = (SMSNotification*)malloc(sizeof(SMSNotification));
+    sms->base.send = sendSMS;
+    return sms;
+}
