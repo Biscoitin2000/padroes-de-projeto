@@ -21,3 +21,11 @@ SMSNotification* createSMSNotification() {
     sms->base.send = sendSMS;
     return sms;
 }
+
+typedef struct EmailNotification {
+    Notification base;
+} EmailNotification;
+
+void sendEmail(Notification* self, const char* message) {
+    printf("Enviando Email: %s\n", message);
+}
