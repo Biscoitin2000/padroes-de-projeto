@@ -1,6 +1,6 @@
 # Adapter
 ## Conceito
-O padrão Adapter atua como um tradutor entre duas interfaces incompatíveis, permitindo que elas trabalhem juntas.
+é um padrão de projeto estrutural que permite que objetos com interfaces incompatíveis colaborem.
 
 ## Problema que Resolve
 Quando você tem classes ou componentes que precisam trabalhar juntas, mas possuem interfaces diferentes.
