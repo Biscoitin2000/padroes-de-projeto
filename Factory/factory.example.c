@@ -3,7 +3,6 @@
 #include <string.h>
 
 
-// Definição da interface para notificações
 typedef struct Notification {
     void (*send)(struct Notification*, const char* message);
 } Notification;
@@ -45,3 +44,20 @@ Notification* createNotification(const char* type) {
     return NULL;
 }
 
+int main() {
+    char tipoNotificacao[10];
+
+    printf("Digite o tipo de notificação (SMS/Email): ");
+    scanf("%s", tipoNotificacao);
+
+    Notification* notificacao = createNotification(tipoNotificacao);
+
+    if (notificacao) {
+        notificacao->send(notificacao, "Olá! Esta é uma mensagem de teste.");
+        free(notificacao);
+    } else {
+        printf("Tipo de notificação inválido!\n");
+    }
+
+    return 0;
+}
