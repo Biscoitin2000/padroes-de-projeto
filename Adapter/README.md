@@ -21,3 +21,20 @@ Quando não é possível modificar diretamente a interface ou implementação da
 
 Quando deseja reutilizar uma classe existente em um novo sistema com uma interface diferente.
 
+##Vantagens##
+
+Reutiliza código existente: Permite usar classes legadas ou de terceiros sem modificação.
+
+Desacoplamento: O cliente e a classe existente permanecem desacoplados.
+
+Flexibilidade: Você pode criar vários adaptadores para diferentes contextos.
+
+Facilita integração: Torna sistemas heterogêneos compatíveis.
+
+##Desvantagens##
+
+Complexidade adicional: Adiciona uma camada extra de abstração, o que pode dificultar a manutenção.
+
+Desempenho: Pequena perda de desempenho devido ao uso do adaptador como intermediário.
+
+Uso excessivo: Pode levar a um design confuso se usado de forma exagerada ou desnecessária.
