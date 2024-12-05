@@ -19,3 +19,11 @@
          |                  |-------------------|
          +------------------> + exibir()        |
                             +-------------------+
+
+Cliente: Usa a interface Target.
+
+Target: Define a interface esperada.
+
+Adapter: Adapta a interface de Adaptee para Target.
+
+Adaptee: Classe existente com a funcionalidade desejada, mas uma interface incompatível.
