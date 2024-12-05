@@ -75,7 +75,7 @@ Recriar em liguagem de programação py(pyton) um similar de seu padrão para su
 
 # DETALHES DO OQUE INCLUIR NA DOCUMENTAÇÃO-
 
-Repetindo os passos amostrados anteriormente na pasta com seu projeto padrão deve conter a DESCRIÇÃO DE SEU PADRÃO cojunto com seu UML DO PADRÃO (EM DIAGRAMA), e por fim anexado na pasta ter um TESTE DE SEU PADRÃO EM PY (PYTON) conforme amostrado a baixo
+Repetindo os passos amostrados anteriormente na pasta com seu projeto padrão deve conter a DESCRIÇÃO DE SEU PADRÃO cojunto com seu UML DO PADRÃO (EM DIAGRAMA), e por fim anexado na pasta ter um TESTE DE SEU PADRÃO EM PY (PYTON) conforme amostrado a baixo. após o recebimento dos dados criar uma issue com seu padrão e esperar alguem aceitar seu padrão, ao mesmo tempo ver se consegue achar alguma issue que combine com seu padrão para fazer-lo 
 EX:
 
 ├── padroes-de-projeto/
@@ -85,5 +85,7 @@ EX:
 │____│____├── UML_Facade-------------------------# Diagrama UML do padrão
 
 │____│____├── facade_example.py------------------# Exemplo prático do padrão em Python
+
+Após o recebimento dos dados criar uma issue com seu padrão e esperar alguem aceitar seu padrão, ao mesmo tempo ver se consegue achar alguma issue que combine com seu padrão para fazer-lo.
 
  
