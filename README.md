@@ -5,7 +5,7 @@ Estamos utlizizando o aquivo chamado de CONTRIBUTING.md para definir a estrutura
 
 Nesse repositória abordamos ao todo cinco padrões, sendo eles: Factory, Facade, Adapter, Singleton, Visitor.
 
-Membros do grupo:  Luis Felipe,Gustavo Madeira Meneghelo (), Orlando Seiti, Vitor Hugo Pires (Taldo Vitinho),
+Membros do grupo:  Luis Felipe,Gustavo Madeira Meneghelo (), Orlando Seiti, Vitor Hugo Pires (Taldo Vitinho),Victor Miranda(Biscoitin2000)
 
 Referências: 
 
@@ -16,10 +16,10 @@ https://www.thiengo.com.br/padrao-de-projeto-factory-method
 https://chatgpt.com/share/67519d7b-6adc-8001-be9e-d3127218042c
 http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/factory.htm
 
--Facade:
+- Facade:
 https://refactoring.guru/design-patterns/facade
 https://chatgpt.com/c/6751b0dd-3e58-8012-8b5f-c92134a3fea3
 
--Visitor:
+- Visitor:
 https://refactoring.guru/pt-br/design-patterns/visitor
 https://chatgpt.com/c/674f6f48-60dc-800b-82ab-b16494dfbbba
