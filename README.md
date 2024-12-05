@@ -15,3 +15,7 @@ https://www.devmedia.com.br/padrao-de-projeto-factory-method-em-java/26348
 https://www.thiengo.com.br/padrao-de-projeto-factory-method
 https://chatgpt.com/share/67519d7b-6adc-8001-be9e-d3127218042c
 http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/factory.htm
+
+-Facade:
+https://refactoring.guru/design-patterns/facade
+https://chatgpt.com/c/6751b0dd-3e58-8012-8b5f-c92134a3fea3
